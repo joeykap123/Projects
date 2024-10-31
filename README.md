@@ -7,7 +7,7 @@ Copyright:  Joey Kaplan
 ```
 # Overview
 
-This repository will store any projects I work on outside of school. 
+    This repository will store any notable projects I have worked on.
 
 # Overview of the Automation System functionality
 
@@ -16,7 +16,11 @@ This repository will store any projects I work on outside of school.
 
     Plan on implementing once done with AutomationSystem
 
+# Overview of Strassen's Algorithm Functionality
+    The Strassen's algorithm project seeks to show an example of both a naive, traditional matrix multiplication algorithm, and Strassen's algorithm. Via these implementations, we seek to explore the asymptotic complexities associated with both types of algorithms, via timing code. 
+
 # Time Expenditures:
 
     Expected / Actual           Project Name            Notes
     30 /                        Automation System
+    5 / 3                       Strassen's Algorithm
