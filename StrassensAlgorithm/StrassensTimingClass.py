@@ -24,17 +24,17 @@ class Timing:
 
 
 if __name__ == "__main__":
-    # Sample matrices for testing
-    matrix_a = np.random.rand(100, 100)
-    matrix_b = np.random.rand(100, 100)
+    for x in range(0,100):
+        matrix_a = np.random.rand(100, 100)
+        matrix_b = np.random.rand(100, 100)
 
-    # Initialize and start the Timing class
-    timer = Timing()
-    timer.start()
+        # Initialize and start the Timing class
+        timer = Timing()
+        timer.start()
 
-    # Call the traditional matrix multiplication method
-    result = StrassensAlgorithmMethod.Strassens(matrix_a, matrix_b)
+        # Call the Strassen's algorithm method
+        result = StrassensAlgorithmMethod.Strassens(matrix_a, matrix_b)
 
-    timer.stop()
-    #print(f"Time taken for matrix multiplication:  seconds")
-    print({timer.elapsed_time()})
+        timer.stop()
+        # print(f"Time taken for matrix multiplication: {timer.elapsed_time()} seconds")
+        print(timer.elapsed_time())

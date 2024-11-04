@@ -2,15 +2,16 @@ import numpy as np
 
 
 def MatrixMultiplicationMethod(matrix_a, matrix_b):
-    # Check if inputs are of type np.matrix or np.ndarray
-    if not isinstance(matrix_a, (np.matrix, np.ndarray)) or not isinstance(matrix_b, (np.matrix, np.ndarray)):
-        raise Exception("Both inputs must be NumPy matrices or arrays.")
-
+    """
+        MatrixMultiplicationMethod() represents a naive, matrix multiplication method for matrices of any dimension
+        :np.array arg0: The first matrix to be multiplied, represented by np.array()
+        :np.array arg1: The second matrix to be multiplied, represented by np.array()
+    """
     # Ensure dimensions are compatible for matrix multiplication
     if matrix_a.shape[1] != matrix_b.shape[0]:
         raise Exception("Number of columns in matrix_a must equal the number of rows in matrix_b.")
 
-    # Initialize the result matrix with zeros
+    # Initialize result matrix C
     matrix_c = np.zeros((matrix_a.shape[0], matrix_b.shape[1]))
 
     # Perform matrix multiplication
@@ -23,4 +24,6 @@ def MatrixMultiplicationMethod(matrix_a, matrix_b):
 
 
 if __name__ == "__main__":
-    MatrixMultiplicationMethod()
+    a = np.array([[1, 2], [3, 4]])
+    b = np.array([[3, 4], [5, 6]])
+    print(MatrixMultiplicationMethod(a, b))
