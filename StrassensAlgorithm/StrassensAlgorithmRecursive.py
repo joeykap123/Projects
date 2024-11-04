@@ -55,6 +55,11 @@ def StrassensRecursive(matrix_a, matrix_b):
 
 if __name__ == "__main__":
     matrix1 = np.array([[3, 2], [2, 4], [9, 0]])
+
     matrix2 = np.array([[1, 2, 4], [3, 4, 7]])
+
+    # |3  2|   |1  2  4|
+    # |2  4|   |3  4  7|
+    # |9  0|
 
     print(StrassensRecursive(matrix1, matrix2))

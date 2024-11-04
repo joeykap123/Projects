@@ -53,6 +53,10 @@ def Strassens(matrix_a, matrix_b):
 if __name__ == "__main__":
     # Initialize two matrices to be multiplied together
     a = np.array([[3, -4], [12, 15]])
+
     b = np.array([[1, 2], [3, 4]])
+
+    # |3  -4|   |1  2|
+    # |12 15|   |3  4|
 
     print(Strassens(a, b))

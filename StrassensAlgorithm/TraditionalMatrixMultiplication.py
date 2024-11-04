@@ -12,7 +12,7 @@ def MatrixMultiplicationMethod(matrix_a, matrix_b):
         raise Exception("Number of columns in matrix_a must equal the number of rows in matrix_b.")
 
     # Initialize result matrix C
-    matrix_c = np.zeros((matrix_a.shape[0], matrix_b.shape[1]))
+    matrix_c = np.zeros((matrix_a.shape[0], matrix_b.shape[1]), dtype=float)
 
     # Perform matrix multiplication
     for i in range(matrix_a.shape[0]):
@@ -25,5 +25,11 @@ def MatrixMultiplicationMethod(matrix_a, matrix_b):
 
 if __name__ == "__main__":
     a = np.array([[1, 2], [3, 4]])
+
     b = np.array([[3, 4], [5, 6]])
+
+    # |1  2|   |3  4|
+    # |3  4|   |5  6|
+
+    np.set_printoptions(precision=1, floatmode='fixed')
     print(MatrixMultiplicationMethod(a, b))
