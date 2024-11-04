@@ -23,4 +23,4 @@ Copyright:  Joey Kaplan
 
     Expected / Actual           Project Name            Notes
     30 /                        Automation System
-    5 / 3                       Strassen's Algorithm
+    5 / 4                       Strassen's Algorithm    Implementation completed and seems to work properly
