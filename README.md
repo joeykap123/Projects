@@ -16,6 +16,9 @@ Copyright:  Joey Kaplan
 
     Plan on implementing once done with AutomationSystem
 
+# Overview of Page Rank Analysis Project
+    This project did not require coding and thus no functionality needs to be noted. The PageRankAnalysis folder contains a PowerPoint and PDF document of the presentation I prepared, a short PDF of notes I created, and a PDF documenting the requirements for this presentation. This project sought to explain how Page Rank works, its impact in computing, and the Linear Algebra that allows the algorithm to function.
+
 # Overview of Strassen's Algorithm Functionality
     The Strassen's algorithm project seeks to show an example of both a naive, traditional matrix multiplication algorithm, and Strassen's algorithm. Via these implementations, we seek to explore the asymptotic complexities associated with both types of algorithms, via timing code. 
 
