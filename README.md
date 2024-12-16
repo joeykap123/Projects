@@ -19,6 +19,10 @@ Copyright:  Joey Kaplan
 # Overview of Strassen's Algorithm Functionality
     The Strassen's algorithm project seeks to show an example of both a naive, traditional matrix multiplication algorithm, and Strassen's algorithm. Via these implementations, we seek to explore the asymptotic complexities associated with both types of algorithms, via timing code. 
 
+# Project Ideas to Implement
+    Markov Chain implementations trained on data to predict weather/stock market trends. 
+    Hand-Drawn Number Recognition using TensorFlow/PyTorch
+
 # Time Expenditures:
 
     Expected / Actual           Project Name            Notes
