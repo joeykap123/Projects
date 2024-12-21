@@ -25,6 +25,7 @@ Copyright:  Joey Kaplan
 # Project Ideas to Implement
     Markov Chain implementations trained on data to predict weather/stock market trends. 
     Hand-Drawn Number Recognition using TensorFlow/PyTorch
+    (Supervised/Unsupervised Learning for Machine Learning + Interpolation implementation traditional vs AI model interpolation)
 
 # Time Expenditures:
 
