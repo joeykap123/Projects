@@ -1,9 +1,9 @@
-'''
+```
 Author: Joey Kaplan
 Date Created: November 4, 2025
 Date Last Modified: November 4, 2025
 Associated Repository: 
-'''
+```
 
 # Overview
 This repository contains details and files associated with the project "An Anaylsis of Steam: Valve's Digital Distribution Monolith". This project seks to analyze the Database Management Systems and Content Delivery Networks associated with this software.
