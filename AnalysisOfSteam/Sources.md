@@ -2,6 +2,8 @@ This file holds references for this project.
 
 References:
 </br>
+Kroenke, David, M. and Randall J Boyle. Using MIS 2021. Available from: University of Utah, (12th Edition). Pearson Education (US), 2021.
+</br>
 [Steam Website] (https://store.steampowered.com/)
 </br>
 [Valve Website] (https://www.valvesoftware.com/en/)
