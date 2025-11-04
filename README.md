@@ -31,6 +31,9 @@ The Steam Analysis Project seeks to analyze how Database Management Systems and 
     Hand-Drawn Number Recognition using TensorFlow/PyTorch
     (Supervised/Unsupervised Learning for Machine Learning + Interpolation implementation traditional vs AI model interpolation)
 
+# Overview of License
+This repository holds an MIT License.
+
 # Time Expenditures:
 
     Expected / Actual           Project Name            Notes
