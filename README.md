@@ -32,7 +32,7 @@ The Steam Analysis Project seeks to analyze how Database Management Systems and 
     (Supervised/Unsupervised Learning for Machine Learning + Interpolation implementation traditional vs AI model interpolation)
 
 # Overview of License
-This repository holds an MIT License.
+Licensed under an MIT License.
 
 # Time Expenditures:
 
