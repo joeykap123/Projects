@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7vLYu0XJ094=",
+  "success": true,
+  "projectFilePath": "/Users/joeykaplan/Repos/Projects/TheArtGalleryProblem/art/Art.csproj",
+  "expectedPackageFiles": [
+    "/Users/joeykaplan/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/joeykaplan/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/joeykaplan/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.11/microsoft.netcore.app.host.osx-x64.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

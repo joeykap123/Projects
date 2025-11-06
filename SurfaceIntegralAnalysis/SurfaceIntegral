@@ -9,18 +9,24 @@ public class SurfaceIntegral()
 
     }
 
+    public SurfaceIntegral(String userInput)
+    {
+        parse(userInput);
+        expressionToStack();
+    }
+
     /** Parse the user's input to separate tokens.
      * 
      */
-    public void parse(String userInput)
+    private void parse(String userInput)
     {
-        
+
     }
 
     /** Push tokens to stack
      * 
      */
-    public void expressionToStack()
+    private void expressionToStack()
     {
 
     }
@@ -28,11 +34,21 @@ public class SurfaceIntegral()
     /** Evaluate stack in proper order
      * 
      */
-    public SurfaceIntegral evaluate() 
+    public SurfaceIntegral evaluate()
     {
         expressionToStack();
 
 
+    }
+
+    public void parseVector(Vector vec)
+    {
+
+    }
+
+    public void parameterize()
+    {
+        
     }
 
 
