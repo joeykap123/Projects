@@ -1,0 +1,100 @@
+using System;
+
+public class Vector()
+{
+    float x, y, z;
+    float magnitude;
+
+    // Default Constructor
+    public Vector()
+    {
+        this.x = 0;
+        this.y = 0;
+        this.z = 0
+        this.magnitude = 0;
+    }
+
+    // Constructor
+    public Vector(x_coordinate, y_coordinate, z_coordinate)
+    {
+        this.x = x_coordinate;
+        this.y = y_coordinate;
+        this.z = z_coordinate;
+        this.magnitude = get_magnitude();
+    }
+
+    // Copy Constructor
+    public Vector(Vector other_vec)
+    {
+        this.x = other_vec.x;
+        this.y = other_vec.y;
+        this.z = other_vec.z;
+        this.magnitude = other_vec.magnitude;
+    }
+
+    public get_x()
+    {
+        return this.x;
+    }
+
+    public get_y()
+    {
+        return this.y;
+    }
+
+     public get_z()
+    {
+        return this.z;
+    }
+
+    public void set_vector(float x, float y, float z)
+    {     
+        this.x = x;
+        this.y = y;
+        this.z = z;
+        this.magnitude = get_magnitude();
+    }
+
+    public float get_magnitude()
+    {
+        return (float) (x**2 + y**2 + z**2) ** 0.5;
+    }
+
+    public Vector add_vectors(Vector other)
+    {
+        float x = this.x + other.x;
+        float y = this.y + other.y;
+        float z = this.z + other.z;
+        return new Vector(x, y, z);
+    }
+
+    public Vector sub_vectors(Vector other)
+    {
+        float x = this.x - other.x;
+        float y = this.y - other.y;
+        float z = this.z - other.z;
+        return new Vector(x, y, z);
+    }
+
+    public float dot_product(Vector vec2)
+    {
+        return this.x * vec2.x + this.y * vec2.y + this.z * vec2.z;
+    }
+
+    public float cross_product(Vector vec2, double angle)
+    {
+        float crossX = this.y * vec2.z - this.z * vec2.y;
+        float crossY = this.z * vec2.x - this.x * vec2.z;
+        float crossZ = this.x * vec2.y - this.y * vec2.x;
+        return new Vector(crossX, crossY, crossZ);
+    }
+
+
+    public String toString()
+    {
+        return String.format("Vector(%.2f, %.2f, %.2f) | Magnitude = %.2f", x, y, z, magnitude);
+    }
+
+
+
+}

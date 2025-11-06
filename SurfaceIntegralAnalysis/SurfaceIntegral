@@ -1,0 +1,50 @@
+public class SurfaceIntegral()
+{
+    float x, y, z;
+    List<Token> tokens = new List<Token>();
+    Stack<Token> stack = new Stack<Token>();
+
+    public SurfaceIntegral()
+    {
+
+    }
+
+    /** Parse the user's input to separate tokens.
+     * 
+     */
+    public void parse(String userInput)
+    {
+        
+    }
+
+    /** Push tokens to stack
+     * 
+     */
+    public void expressionToStack()
+    {
+
+    }
+
+    /** Evaluate stack in proper order
+     * 
+     */
+    public SurfaceIntegral evaluate() 
+    {
+        expressionToStack();
+
+
+    }
+
+
+}
+
+class Token
+{
+    public TokenType Type;
+    public string Value; // "x", "+", "2", "("
+    public Token(TokenType type, string value)
+    {
+        Type = type;
+        Value = value;
+    }
+}
