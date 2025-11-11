@@ -8,14 +8,6 @@ Copyright:  Joey Kaplan
 # Overview
 
 This repository will store any notable projects I have worked on.
-
-# Overview of the Automation System functionality
-
-    TODO::: NOT YET IMPLEMENTED
-
-# Overview of the EPubReader functionality
-
-    TODO::: NOT YET IMPLEMENTED
     
 # Overview of Page Rank Analysis Project
 This project did not require coding and thus no functionality needs to be noted. The PageRankAnalysis folder contains a PowerPoint and PDF document of the presentation I prepared, a short PDF of notes I created, and a PDF documenting the requirements for this presentation. This project sought to explain how Page Rank works, its impact in computing, and the Linear Algebra that allows the algorithm to function.
@@ -38,5 +30,4 @@ Licensed under an MIT License.
 # Time Expenditures:
 
     Expected / Actual           Project Name            Notes
-    30 /                        Automation System
     5 / 4                       Strassen's Algorithm    Implementation completed and seems to work properly
