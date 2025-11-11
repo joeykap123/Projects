@@ -8,7 +8,7 @@ Copyright:  Joey Kaplan
 
 # Overview
 
-This README contains details in reference to the Strassen's algorithm project.
+This README contains details in reference to the Strassen's algorithm project. Strassen's algorithm provides a more efficient method to compute matrix multiplication in computing, reducing the asymptotic complexity.
 
 # Overview of Strassen's Algorithm Functionality
 
