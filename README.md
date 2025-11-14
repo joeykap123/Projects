@@ -19,6 +19,8 @@ The Strassen's algorithm project seeks to show an example of both a naive, tradi
     IN PROGRESS  
 The Steam Analysis Project seeks to analyze how Database Management Systems and Content Delivery Networks create the backbone of Steam, Valve's Digital Distribution Network.
 
+# Overview of Networking in Video Games: Team Fortress 2
+
 # Project Ideas to Implement
     Markov Chain implementations trained on data to predict weather/stock market trends. 
     Hand-Drawn Number Recognition using TensorFlow/PyTorch
