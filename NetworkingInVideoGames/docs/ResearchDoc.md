@@ -29,10 +29,6 @@ Team Fortress 2 is often notated by the informal name, **TF2**, and as such I wi
 - [Appendix A: Interpolation Formulas](#appendix-a-interpolation-formulas)
 - [Appendix B: Simulation Parameters](#appendix-b-simulation-parameters)
 
-## 3. Overview of Team Fortress 2 (TF2) Networking
-
-While details of Valve's exact networking infrastructure remain unknown, we can assume Steam uses User Diagram Protocol (UDP) to run its servers for various games.
-
 ## 4. Why is User Datagram Protocol (UDP) Used and Its Trade-Offs
 Two major connection protocols are used throughout the world; TCP and UDP. Many online games, streaming services, and video conferencing applications use UDP. Let us examine why TF2 uses UDP.
 </br>
