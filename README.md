@@ -25,6 +25,7 @@ The Steam Analysis Project seeks to analyze how Database Management Systems and 
     Markov Chain implementations trained on data to predict weather/stock market trends. 
     Hand-Drawn Number Recognition using TensorFlow/PyTorch
     (Supervised/Unsupervised Learning for Machine Learning + Interpolation implementation traditional vs AI model interpolation)
+    Short Ciruit TF2 polling - 0.105 second checks that allow some projectiles through (might not implement because already working on TF2 project and I am unsure how this relates to CS beyond discrete. 
 
 # Overview of License
 Licensed under an MIT License.
