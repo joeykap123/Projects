@@ -15,11 +15,17 @@ This project did not require coding and thus no functionality needs to be noted.
 # Overview of Strassen's Algorithm Project
 The Strassen's algorithm project seeks to show an example of both a naive, traditional matrix multiplication algorithm, and Strassen's algorithm. Via these implementations, we seek to explore the asymptotic complexities associated with both types of algorithms, via timing code. 
 
+# Overview of Surface Integral Analysis Project
+    IN PROGRESS
+This project seeks to function as a calculator for computing surface integrals.
+
 # Overview of Steam Analysis Project
     IN PROGRESS  
-The Steam Analysis Project seeks to analyze how Database Management Systems and Content Delivery Networks create the backbone of Steam, Valve's Digital Distribution Network.
+The Steam Analysis Project seeks to analyze how Database Management Systems and Content Delivery Networks create the backbone of Steam, Valve's Digital Distribution Network. This project does not have code, but analyzes the use of Content Delivery Networks and Database Management Systems, which are important Information Systems topics.
 
 # Overview of Networking in Video Games: Team Fortress 2
+    IN PROGRESS
+This project seeks to explore how numerous network concepts operate in the video game Team Fortress 2. Topics of interest include lag compensation, UDP/TCP, event/state synchronization, server architectures, and related topics. Simulation of clients is performed to analyze how lag compensation and interpolation can be used to ensure cohesive gameplay.
 
 # Project Ideas to Implement
     Markov Chain implementations trained on data to predict weather/stock market trends. 
